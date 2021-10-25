@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<databaseChangeLog
+        xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog
+http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-4.1.xsd">
+
+    <include relativeToChangelogFile="true" file="20211023_001_create_product_category_table.sql"/>
+    <include relativeToChangelogFile="true" file="20211023_002_create_product_table.sql"/>
+    <include relativeToChangelogFile="true" file="20211023_003_insert_product_category_values.sql"/>
+    <include relativeToChangelogFile="true" file="20211023_004_insert_product_values.sql"/>
+
+</databaseChangeLog>
