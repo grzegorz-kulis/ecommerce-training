@@ -43,9 +43,7 @@
 		<dependency>
 			<groupId>org.liquibase</groupId>
 			<artifactId>liquibase-core</artifactId>
-			<version>4.4.3</version>
 		</dependency>
-
 
 		<!-- util -->
 		<dependency>
