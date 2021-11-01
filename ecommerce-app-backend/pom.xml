@@ -20,6 +20,7 @@
         <maven.compiler.source>14</maven.compiler.source>
         <maven.compiler.target>14</maven.compiler.target>
         <java.version>14</java.version>
+        <spring.starter.version>2.5.6</spring.starter.version>
         <resources-directory>${project.basedir}/src/main/resources</resources-directory>
         <liquibase.properties-file>${resources-directory}/db/liquibase.properties</liquibase.properties-file>
         <liquibase.change-log-file>${resources-directory}/db/changelog-master.xml</liquibase.change-log-file>
@@ -31,7 +32,7 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-parent</artifactId>
-            <version>2.5.6</version>
+            <version>${spring.starter.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
