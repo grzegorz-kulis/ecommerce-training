@@ -1,11 +1,11 @@
-HELP.md
-target/
-!.mvn/wrapper/maven-wrapper.jar
+*HELP.md
+*target/
 !**/src/main/**
 !**/src/test/**
-/docker/db
+*/docker/db
+*/.mvn
 
-### STS ###
+### STS ###`
 .apt_generated
 .classpath
 .factorypath
