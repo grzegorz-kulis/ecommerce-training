@@ -1,15 +1,17 @@
 package com.lisek.ecommerce.model;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.math.BigDecimal;
 import java.util.Date;
 
+@Getter
+@Setter
 @Entity
-@Table(name="product")
-@Data
+@Table(name = "product")
 public class Product {
 
     @Id
